@@ -97,6 +97,7 @@ ul {
   margin: 0;
   padding-bottom: 30px;
   color: var(--second-text-color);
+  background-color: var(--primary-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
