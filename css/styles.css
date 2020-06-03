@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -16,6 +26,28 @@ body {
   letter-spacing: 0.03em;
 }
 /* header container */
+.container {
+  width: 1170px;
+  background-color: tomato;
+  border: 2px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-header {
+  width: 1170px;
+  background-color: tomato;
+  border: 2px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+}
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway;
@@ -29,6 +61,8 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .site-nav .link {
   color: var(--primary-text-color);
@@ -60,14 +94,23 @@ ul {
 /*main container */
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
-  color: var(--primary-text-color);
+  margin: 0;
+  padding-bottom: 30px;
+  color: var(--second-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
 }
 .hero-button {
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 10px 32px 10px 32px;
+
   color: var(--second-text-color);
   background-color: var(--accent-color);
   font-style: normal;
@@ -79,6 +122,8 @@ ul {
 /* profit */
 .profit-title {
   color: var(--primary-text-color);
+  margin: 0;
+  padding-bottom: 10px;
 }
 .profit-text {
   font-weight: 400;
@@ -87,6 +132,8 @@ ul {
 }
 /* section title */
 .section-title {
+  margin: 0;
+  padding-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -102,6 +149,8 @@ ul {
 }
 /* section team */
 .section-team-title {
+  margin: 0;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -121,6 +170,8 @@ ul {
 }
 /*client-section */
 .client-section-title {
+  margin: 0;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -130,6 +181,9 @@ ul {
 /*footer */
 .footer {
   background-color: var(--footer-background-color);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .adress-main {
   color: var(--body-color);

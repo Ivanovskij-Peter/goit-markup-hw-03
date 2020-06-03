@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -15,7 +19,7 @@
     <!---Шапка сайта-->
     <header>
       <!---header-container-->
-      <div class="container-site-nav">
+      <div class="container-header">
         <nav class="site-nav">
           <a href="index.html" class="logo">
             <span class="accent-logo">Web </span>Studio</a
@@ -45,230 +49,240 @@
     <!-- main-->
     <main>
       <!--предложения-->
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <a href="" class="hero-button">Заказать услугу</a>
-      </section>
+      <div class="container">
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <a href="" class="hero-button">Заказать услугу</a>
+        </section>
+      </div>
       <!--выгоды-->
-      <section class="profit">
-        <ul>
-          <li>
-            <img
-              src="./img/antenna1.svg"
-              alt="первая картинка"
-              width="70"
-              height="70"
-            />
-            <h2 class="profit-title">Внимание к деталям</h2>
-            <p class="profit-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./img/clock1.svg"
-              alt="вторая картинка"
-              width="70"
-              height="70"
-            />
-            <h2 class="profit-title">Пунктуальность</h2>
-            <p class="profit-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./img/diagram1.svg"
-              alt="третья картинка"
-              width="70"
-              height="70"
-            />
-            <h2 class="profit-title">Планирование</h2>
-            <p class="profit-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./img/astronaut1.svg"
-              alt="четвертая картинка"
-              width="70"
-              height="70"
-            />
-            <h2 class="profit-title">Современные технологии</h2>
-            <p class="profit-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="profit">
+          <ul>
+            <li>
+              <img
+                src="./img/antenna1.svg"
+                alt="первая картинка"
+                width="70"
+                height="70"
+              />
+              <h2 class="profit-title">Внимание к деталям</h2>
+              <p class="profit-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./img/clock1.svg"
+                alt="вторая картинка"
+                width="70"
+                height="70"
+              />
+              <h2 class="profit-title">Пунктуальность</h2>
+              <p class="profit-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./img/diagram1.svg"
+                alt="третья картинка"
+                width="70"
+                height="70"
+              />
+              <h2 class="profit-title">Планирование</h2>
+              <p class="profit-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./img/astronaut1.svg"
+                alt="четвертая картинка"
+                width="70"
+                height="70"
+              />
+              <h2 class="profit-title">Современные технологии</h2>
+              <p class="profit-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- чем мы занимемся-->
-      <section class="section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <img
-              src="./img/img.svg"
-              alt="фото дистропных приложений"
-              width="370"
-              height="294"
-            />
-            <h3 class="section-text">Десктопные приложения</h3>
-          </li>
-          <li>
-            <img
-              src="./img/box.svg"
-              alt="фото мобильных приложений"
-              width="370"
-              height="294"
-            />
-            <h3 class="section-text">Мобильные приложения</h3>
-          </li>
-          <li>
-            <img
-              src="./img/img2.svg"
-              alt="фото дизайнерских решений"
-              width="370"
-              height="294"
-            />
-            <h3 class="section-text">Дизайнерские решения</h3>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="section">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul>
+            <li>
+              <img
+                src="./img/img.svg"
+                alt="фото дистропных приложений"
+                width="370"
+                height="294"
+              />
+              <h3 class="section-text">Десктопные приложения</h3>
+            </li>
+            <li>
+              <img
+                src="./img/box.svg"
+                alt="фото мобильных приложений"
+                width="370"
+                height="294"
+              />
+              <h3 class="section-text">Мобильные приложения</h3>
+            </li>
+            <li>
+              <img
+                src="./img/img2.svg"
+                alt="фото дизайнерских решений"
+                width="370"
+                height="294"
+              />
+              <h3 class="section-text">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--команда-->
-      <section class="section-team">
-        <h2 class="section-team-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img
-              src="./img/teamcards/img.svg"
-              alt="фото первого сотрудника"
-              height="260"
-              width="270"
-            />
-            <h3 class="section-team-name">John Smith</h3>
-            <p class="section-team-profit">Product Designer</p>
-            <ul>
-              <li><a href aria-label="Instagram">Instagram</a></li>
-              <li><a href aria-label="Twitter">Twitter</a></li>
-              <li><a href aria-label="Facebook">Facebook</a></li>
-              <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./img/teamcards/img-2.svg"
-              alt="фото второго сотрудника"
-              height="260"
-              width="270"
-            />
-            <h3 class="section-team-name">Marta Stewart</h3>
-            <p class="section-team-profit">Frontend Developer</p>
-            <ul>
-              <li><a href aria-label="Instagram">Instagram</a></li>
-              <li><a href aria-label="Twitter">Twitter</a></li>
-              <li><a href aria-label="Facebook">Facebook</a></li>
-              <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./img/teamcards/img3.svg"
-              alt="фото третьего сотрудника"
-              height="260"
-              width="270"
-            />
-            <h3 class="section-team-name">Robert Jakis</h3>
-            <p class="section-team-profit">Marketing</p>
-            <ul>
-              <li><a href aria-label="Instagram">Instagram</a></li>
-              <li><a href aria-label="Twitter">Twitter</a></li>
-              <li><a href aria-label="Facebook">Facebook</a></li>
-              <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./img/teamcards/img-4.svg"
-              alt="фото четвертого сотрудника"
-              height="260"
-              width="270"
-            />
-            <h3 class="section-team-name">Martin Doe</h3>
-            <p class="section-team-profit">UI Designer</p>
-            <ul>
-              <li><a href aria-label="Instagram">Instagram</a></li>
-              <li><a href aria-label="Twitter">Twitter</a></li>
-              <li><a href aria-label="Facebook">Facebook</a></li>
-              <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="section-team">
+          <h2 class="section-team-title">Наша команда</h2>
+          <ul>
+            <li>
+              <img
+                src="./img/teamcards/img.svg"
+                alt="фото первого сотрудника"
+                height="260"
+                width="270"
+              />
+              <h3 class="section-team-name">John Smith</h3>
+              <p class="section-team-profit">Product Designer</p>
+              <ul>
+                <li><a href aria-label="Instagram">Instagram</a></li>
+                <li><a href aria-label="Twitter">Twitter</a></li>
+                <li><a href aria-label="Facebook">Facebook</a></li>
+                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./img/teamcards/img-2.svg"
+                alt="фото второго сотрудника"
+                height="260"
+                width="270"
+              />
+              <h3 class="section-team-name">Marta Stewart</h3>
+              <p class="section-team-profit">Frontend Developer</p>
+              <ul>
+                <li><a href aria-label="Instagram">Instagram</a></li>
+                <li><a href aria-label="Twitter">Twitter</a></li>
+                <li><a href aria-label="Facebook">Facebook</a></li>
+                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./img/teamcards/img3.svg"
+                alt="фото третьего сотрудника"
+                height="260"
+                width="270"
+              />
+              <h3 class="section-team-name">Robert Jakis</h3>
+              <p class="section-team-profit">Marketing</p>
+              <ul>
+                <li><a href aria-label="Instagram">Instagram</a></li>
+                <li><a href aria-label="Twitter">Twitter</a></li>
+                <li><a href aria-label="Facebook">Facebook</a></li>
+                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./img/teamcards/img-4.svg"
+                alt="фото четвертого сотрудника"
+                height="260"
+                width="270"
+              />
+              <h3 class="section-team-name">Martin Doe</h3>
+              <p class="section-team-profit">UI Designer</p>
+              <ul>
+                <li><a href aria-label="Instagram">Instagram</a></li>
+                <li><a href aria-label="Twitter">Twitter</a></li>
+                <li><a href aria-label="Facebook">Facebook</a></li>
+                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- Наши клиенты-->
-      <section class="client-section">
-        <h2 class="client-section-title">Постоянные клиенты</h2>
-        <ul>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client1.svg"
-                alt="клиент1"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client2.svg"
-                alt="клиент2"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client3.svg"
-                alt="клиент3"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client4.svg"
-                alt="клиент4"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client5.svg"
-                alt="клиент5"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/client6.svg"
-                alt="клиент6"
-                width="170"
-                height="90"
-            /></a>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="client-section">
+          <h2 class="client-section-title">Постоянные клиенты</h2>
+          <ul>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client1.svg"
+                  alt="клиент1"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client2.svg"
+                  alt="клиент2"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client3.svg"
+                  alt="клиент3"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client4.svg"
+                  alt="клиент4"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client5.svg"
+                  alt="клиент5"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/client6.svg"
+                  alt="клиент6"
+                  width="170"
+                  height="90"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!-- Футер-->
     <footer class="footer">
