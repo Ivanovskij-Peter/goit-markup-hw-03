@@ -28,8 +28,6 @@ body {
 /* header container */
 .container {
   width: 1170px;
-  background-color: tomato;
-  border: 2px solid green;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -39,8 +37,6 @@ body {
 }
 .container-header {
   width: 1170px;
-  background-color: tomato;
-  border: 2px solid green;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
