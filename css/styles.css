@@ -1,0 +1,190 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --second-text-color: #ffffff;
+  --body-color: #ffffff;
+  --second-body-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --adress-footer-color: rgba(255, 255, 255, 0.6);
+  --second-footer-color: rgba(255, 255, 255, 0.4);
+}
+body {
+  background-color: var(--second-text-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* header container */
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-nav .contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+.contacts-nav .contacts:hover,
+.contacts-nav .contacts:focus {
+  color: var(--accent-color);
+}
+/*main container */
+.hero {
+  text-align: center;
+}
+.hero-title {
+  color: var(--primary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+.hero-button {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+}
+/* profit */
+.profit-title {
+  color: var(--primary-text-color);
+}
+.profit-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* section title */
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.section-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+/* section team */
+.section-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.section-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+.section-team-profit {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+/*client-section */
+.client-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+/*footer */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.adress-main {
+  color: var(--body-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adress-info {
+  color: var(--adress-footer-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-down {
+  color: var(--second-footer-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+}
+.footer-logo {
+  color: var(--second-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.second-logo {
+  color: var(--body-color);
+}
+.footer-connect {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--body-color);
+}
+.footer-news {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--body-color);
+}
+/* button */
+.button-primary {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+}
