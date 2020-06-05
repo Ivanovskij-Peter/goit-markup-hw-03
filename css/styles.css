@@ -63,7 +63,6 @@ ul {
 }
 
 .site-nav .link {
-
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -119,7 +118,7 @@ ul {
   text-decoration: none;
 }
 /* profit */
-}
+
 .profit-title {
   color: var(--primary-text-color);
   margin: 0;
