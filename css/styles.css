@@ -62,10 +62,6 @@ ul {
   margin: 0;
 }
 
-.site-nav .item {
-  margin-right: 50px;
-  background-color: tomato;
-}
 .site-nav .link {
 
   color: var(--primary-text-color);
