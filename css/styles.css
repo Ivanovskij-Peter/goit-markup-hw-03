@@ -9,6 +9,7 @@ html {
 }
 
 :root {
+  --secondary-background-color: #f5f4fa;
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
@@ -25,6 +26,9 @@ body {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+}
+.our-team {
+  background: var(--secondary-background-color);
 }
 .section {
   padding-top: 94px;
