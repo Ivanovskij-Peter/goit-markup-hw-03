@@ -37,13 +37,13 @@
         <!---телефон и имейл в шапке-->
         <ul class="contacts-nav">
           <li class="contacts-nav-li">
-            <img src="./img/logo1.svg" alt="" />
+            <img class="contacts-logo" src="./img/logo1.svg" alt="" />
             <a href="mailto:info@devstudio.com" class="contacts"
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-nav-li">
-            <img src="./img/logo2.svg" alt="" />
+            <img class="contacts-logo" src="./img/logo2.svg" alt="" />
             <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -52,8 +52,8 @@
     <!-- main-->
     <main>
       <!--предложения-->
-      <section class="hero">
-        <div>
+      <section class="section hero">
+        <div class="container hero-main">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <a href="" class="hero-button">Заказать услугу</a>
         </div>
@@ -63,13 +63,15 @@
         <div class="container">
           <ul class="profit">
             <li class="item">
-              <img
-                class="image"
-                src="./img/antenna1.svg"
-                alt="первая картинка"
-                width="70"
-                height="70"
-              />
+              <div class="images">
+                <img
+                  class="image"
+                  src="./img/antenna1.svg"
+                  alt="первая картинка"
+                  width="70"
+                  height="70"
+                />
+              </div>
               <h2 class="profit-title">Внимание к деталям</h2>
               <p class="profit-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -77,13 +79,15 @@
               </p>
             </li>
             <li class="item">
-              <img
-                class="image"
-                src="./img/clock1.svg"
-                alt="вторая картинка"
-                width="70"
-                height="70"
-              />
+              <div class="images">
+                <img
+                  class="image"
+                  src="./img/clock1.svg"
+                  alt="вторая картинка"
+                  width="70"
+                  height="70"
+                />
+              </div>
               <h2 class="profit-title">Пунктуальность</h2>
               <p class="profit-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -91,13 +95,15 @@
               </p>
             </li>
             <li class="item">
-              <img
-                class="image"
-                src="./img/diagram1.svg"
-                alt="третья картинка"
-                width="70"
-                height="70"
-              />
+              <div class="images">
+                <img
+                  class="image"
+                  src="./img/diagram1.svg"
+                  alt="третья картинка"
+                  width="70"
+                  height="70"
+                />
+              </div>
               <h2 class="profit-title">Планирование</h2>
               <p class="profit-text">
                 Равным образом консультация с широким активом в значительной
@@ -105,13 +111,15 @@
               </p>
             </li>
             <li class="item">
-              <img
-                class="image"
-                src="./img/astronaut1.svg"
-                alt="четвертая картинка"
-                width="70"
-                height="70"
-              />
+              <div class="images">
+                <img
+                  class="image"
+                  src="./img/astronaut1.svg"
+                  alt="четвертая картинка"
+                  width="70"
+                  height="70"
+                />
+              </div>
               <h2 class="profit-title">Современные технологии</h2>
               <p class="profit-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -166,67 +174,79 @@
           <ul class="team">
             <li class="item">
               <img
+                class="team-photo"
                 src="./img/teamcards/img.svg"
                 alt="фото первого сотрудника"
                 height="260"
                 width="270"
               />
-              <h3 class="section-team-name">John Smith</h3>
-              <p class="section-team-profit">Product Designer</p>
-              <ul>
-                <li><a href aria-label="Instagram">Instagram</a></li>
-                <li><a href aria-label="Twitter">Twitter</a></li>
-                <li><a href aria-label="Facebook">Facebook</a></li>
-                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-              </ul>
+              <div class="team-info">
+                <h3 class="section-team-name">John Smith</h3>
+                <p class="section-team-profit">Product Designer</p>
+                <ul>
+                  <li><a href aria-label="Instagram">Instagram</a></li>
+                  <li><a href aria-label="Twitter">Twitter</a></li>
+                  <li><a href aria-label="Facebook">Facebook</a></li>
+                  <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
+                class="team-photo"
                 src="./img/teamcards/img-2.svg"
                 alt="фото второго сотрудника"
                 height="260"
                 width="270"
               />
-              <h3 class="section-team-name">Marta Stewart</h3>
-              <p class="section-team-profit">Frontend Developer</p>
-              <ul>
-                <li><a href aria-label="Instagram">Instagram</a></li>
-                <li><a href aria-label="Twitter">Twitter</a></li>
-                <li><a href aria-label="Facebook">Facebook</a></li>
-                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-              </ul>
+              <div class="team-info">
+                <h3 class="section-team-name">Marta Stewart</h3>
+                <p class="section-team-profit">Frontend Developer</p>
+                <ul>
+                  <li><a href aria-label="Instagram">Instagram</a></li>
+                  <li><a href aria-label="Twitter">Twitter</a></li>
+                  <li><a href aria-label="Facebook">Facebook</a></li>
+                  <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
+                class="team-photo"
                 src="./img/teamcards/img3.svg"
                 alt="фото третьего сотрудника"
                 height="260"
                 width="270"
               />
-              <h3 class="section-team-name">Robert Jakis</h3>
-              <p class="section-team-profit">Marketing</p>
-              <ul>
-                <li><a href aria-label="Instagram">Instagram</a></li>
-                <li><a href aria-label="Twitter">Twitter</a></li>
-                <li><a href aria-label="Facebook">Facebook</a></li>
-                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-              </ul>
+              <div class="team-info">
+                <h3 class="section-team-name">Robert Jakis</h3>
+                <p class="section-team-profit">Marketing</p>
+                <ul>
+                  <li><a href aria-label="Instagram">Instagram</a></li>
+                  <li><a href aria-label="Twitter">Twitter</a></li>
+                  <li><a href aria-label="Facebook">Facebook</a></li>
+                  <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
+                class="team-photo"
                 src="./img/teamcards/img-4.svg"
                 alt="фото четвертого сотрудника"
                 height="260"
                 width="270"
               />
-              <h3 class="section-team-name">Martin Doe</h3>
-              <p class="section-team-profit">UI Designer</p>
-              <ul>
-                <li><a href aria-label="Instagram">Instagram</a></li>
-                <li><a href aria-label="Twitter">Twitter</a></li>
-                <li><a href aria-label="Facebook">Facebook</a></li>
-                <li><a href aria-label="LinkeIn">LinkeIn</a></li>
-              </ul>
+              <div class="team-info">
+                <h3 class="section-team-name">Martin Doe</h3>
+                <p class="section-team-profit">UI Designer</p>
+                <ul>
+                  <li><a href aria-label="Instagram">Instagram</a></li>
+                  <li><a href aria-label="Twitter">Twitter</a></li>
+                  <li><a href aria-label="Facebook">Facebook</a></li>
+                  <li><a href aria-label="LinkeIn">LinkeIn</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
