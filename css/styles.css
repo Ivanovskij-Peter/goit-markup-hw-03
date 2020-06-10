@@ -7,7 +7,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 :root {
   --secondary-background-color: #f5f4fa;
   --primary-text-color: #212121;
@@ -322,7 +326,6 @@ ul {
   display: flex;
   padding-left: 0;
   justify-content: center;
-  margin-right: 20px;
 }
 .team-links .link {
   margin-right: 20px;
@@ -446,10 +449,6 @@ ul {
 .second-logo {
   color: var(--body-color);
 }
-.footer-connect-main {
-  display: flex;
-  flex-direction: column;
-}
 .footer-connect {
   margin-bottom: 20px;
   display: block;
@@ -458,6 +457,17 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   color: var(--body-color);
+}
+.footer-links {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+}
+.footer-links .link {
+  margin-right: 20px;
+}
+.footer-links .link:nth-child(4) {
+  margin-right: 0;
 }
 .footer-join {
   display: flex;

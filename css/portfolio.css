@@ -7,6 +7,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -139,12 +146,15 @@ a {
   color: var(--accent-color);
 }
 /* main container */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .main-nav {
   display: flex;
   align-items: center;
 }
 .button {
-  padding-top: 93px;
   margin-bottom: 34px;
   display: flex;
   justify-content: center;
