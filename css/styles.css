@@ -317,6 +317,8 @@ ul {
   margin-right: auto;
 }
 .footer-nav {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -329,6 +331,8 @@ ul {
   flex-direction: column;
 }
 .adress-main {
+  display: flex;
+  margin-bottom: 9px;
   color: var(--body-color);
   font-style: normal;
   font-weight: 400;
@@ -336,11 +340,14 @@ ul {
   line-height: 1.7;
 }
 .adress-info {
+  display: flex;
+  margin-bottom: 9px;
   color: var(--adress-footer-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 .footer-down {
   margin-bottom: 0;
@@ -356,8 +363,8 @@ ul {
   text-align: center;
 }
 .footer-logo {
-  padding-top: 45px;
-  margin-bottom: 8px;
+  display: flex;
+  margin-bottom: 9px;
   color: var(--second-text-color);
   font-family: Raleway;
   font-style: normal;
@@ -369,10 +376,12 @@ ul {
 .second-logo {
   color: var(--body-color);
 }
-
+.footer-connect-main {
+  display: flex;
+  flex-direction: column;
+}
 .footer-connect {
   margin-bottom: 20px;
-  padding-top: 57px;
   display: block;
   font-style: normal;
   font-weight: 700;
@@ -380,8 +389,12 @@ ul {
   line-height: 1.2;
   color: var(--body-color);
 }
+.footer-join {
+  display: flex;
+  flex-direction: column;
+}
 .footer-news {
-  padding-top: 57px;
+  margin-bottom: 21px;
   display: block;
   font-style: normal;
   font-weight: 700;
