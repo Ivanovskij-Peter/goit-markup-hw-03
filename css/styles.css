@@ -318,7 +318,10 @@ ul {
 }
 .footer-nav {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .footer-nav .adreess {
   text-align: inherit;
@@ -353,6 +356,7 @@ ul {
   text-align: center;
 }
 .footer-logo {
+  padding-top: 45px;
   margin-bottom: 8px;
   color: var(--second-text-color);
   font-family: Raleway;
@@ -366,11 +370,10 @@ ul {
   color: var(--body-color);
 }
 
-.connecting {
-  display: flex;
-  justify-content: flex-end;
-}
 .footer-connect {
+  margin-bottom: 20px;
+  padding-top: 57px;
+  display: block;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -378,6 +381,8 @@ ul {
   color: var(--body-color);
 }
 .footer-news {
+  padding-top: 57px;
+  display: block;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
