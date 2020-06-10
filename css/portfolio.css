@@ -99,8 +99,32 @@ a {
 .contacts-nav-li {
   display: inline-flex;
 }
+.contacts-nav > .mail::before {
+  display: block;
+  content: "";
+  background-image: url(../img/envelope.svg);
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 34px;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
 .contacts-nav .contacts-nav-li + .contacts-nav-li {
   margin-left: 30px;
+}
+.contacts-nav > .tel::before {
+  display: block;
+  content: "";
+  background-image: url(../img/smartphone.svg);
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 32px;
+  margin-bottom: auto;
+  margin-right: 10px;
 }
 .contacts-nav .contacts {
   color: var(--primary-text-color);
@@ -137,6 +161,7 @@ a {
   background: #f5f4fa;
   border-radius: 4px;
   border-color: transparent;
+  letter-spacing: 0.03em;
 }
 .button .link:hover,
 .button .link:focus {
@@ -183,6 +208,7 @@ a {
   color: var(--title-text-color);
 }
 /*footer */
+
 .footer {
   background-color: var(--footer-background-color);
   margin-left: auto;
@@ -260,6 +286,18 @@ a {
   font-size: 14px;
   line-height: 1.2;
   color: var(--body-color);
+}
+.footer-links {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  margin-right: 20px;
+}
+.footer-links .link {
+  margin-right: 20px;
+}
+.footer-links .link:nth-child(4) {
+  margin-right: 0;
 }
 .footer-join {
   display: flex;
