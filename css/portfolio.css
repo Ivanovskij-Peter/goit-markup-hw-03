@@ -194,10 +194,12 @@ a {
   border: 1px solid #eeeeee;
   margin: 15px;
 }
-.works-title {
-  padding-right: 24px;
-  padding-left: 24px;
+.work {
   padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.works-title {
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
@@ -207,10 +209,8 @@ a {
   color: var(--primary-text-color);
 }
 .works-text {
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
