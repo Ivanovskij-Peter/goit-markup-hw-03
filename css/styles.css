@@ -396,8 +396,8 @@ ul {
 .clients .item:not(:last-child) {
   margin-right: 30px;
 }
-.clients .item :hover,
-.clients .item :focus {
+.clients .item:hover,
+.clients .item:focus {
   background-color: var(--accent-color);
 }
 /*footer */
