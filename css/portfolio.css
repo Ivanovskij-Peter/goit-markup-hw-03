@@ -195,9 +195,7 @@ a {
   margin: 15px;
 }
 .work {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px;
 }
 .works-title {
   margin-top: 0;
@@ -210,7 +208,6 @@ a {
 }
 .works-text {
   margin: 0;
-  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -249,13 +246,15 @@ a {
 }
 .adress-info {
   display: flex;
-  margin-bottom: 9px;
   color: var(--adress-footer-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+}
+.footer-mail {
+  margin-bottom: 10px;
 }
 .footer-down {
   margin-bottom: 0;
@@ -301,7 +300,6 @@ a {
   display: flex;
   padding-left: 0;
   justify-content: center;
-  margin-right: 20px;
 }
 .footer-links .link {
   margin-right: 20px;
