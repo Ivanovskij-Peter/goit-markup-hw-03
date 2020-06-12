@@ -105,14 +105,11 @@ ul {
 }
 .svg-invelop {
   margin-right: 10px;
-  --color4: var(--title-text-color);
-}
-.svg-invelop:hover {
-  --color4: var(--accent-color);
+  fill: currentColor;
 }
 .svg-tel {
   margin-right: 10px;
-  fill: var(--title-text-color);
+  fill: currentColor;
 }
 .contacts-nav .contacts-nav-li + .contacts-nav-li {
   margin-left: 30px;
@@ -292,9 +289,6 @@ ul {
   align-items: center;
 }
 .social {
-  fill: #afb1b8;
-}
-.social {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -303,14 +297,7 @@ ul {
   height: 44px;
   border-radius: 50%;
 }
-.social:hover,
-.social:focus {
-  background-color: var(--accent-color);
-}
-.svg-item:hover,
-.svg-item:focus {
-  color: var(--second-text-color);
-}
+
 .team-links .link:nth-child(4) {
   margin-right: 0;
 }
@@ -370,12 +357,7 @@ ul {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.svg-logo {
-  --color1: #afb1b8;
-}
-.svg-logo:hover {
-  --color1: var(--accent-color);
-}
+
 .clients .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -512,3 +494,4 @@ ul {
 .footer-send {
   margin-left: 10px;
 }
+/* icons */
