@@ -179,14 +179,14 @@ a {
   background-color: var(--accent-color);
 }
 /* works */
-.main .works {
+.works {
   padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   margin: -15px;
 }
-.main .example {
+.example {
   /* width: calc((100%-60px) / 3); */
   width: 370px;
   text-align: initial;
