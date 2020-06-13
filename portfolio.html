@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
   <body>
+    <!---Шапка сайта-->
     <header class="page-header">
       <!---header-container-->
       <div class="container main-nav">
@@ -34,17 +35,22 @@
         </nav>
         <!---телефон и имейл в шапке-->
         <ul class="contacts-nav">
-          <li class="contacts-nav-li mail">
-            <a href="mailto:info@devstudio.com" class="contacts"
-              >info@devstudio.com</a
-            >
+          <li class="contacts-nav-li">
+            <svg class="svg-envelop" width="15" height="15">
+              <use href=./img/symbol-defs.svg#icon-envelope></use>
+            </svg>
+            <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
           </li>
-          <li class="contacts-nav-li tel">
+          <li class="contacts-nav-li">
+            <svg class="svg-tel" width="15" height="15">
+              <use href=./img/symbol-defs.svg#icon-vector></use>
+            </svg>
             <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
+    <!-- main-->
     <main>
       <section class="section">
         <div class="container">
@@ -195,43 +201,50 @@
           <div class="footer-adress">
             <a href="index.html" class="footer-logo">
               <span class="accent-logo">Web </span>
+    
               <span class="second-logo">Studio</span>
             </a>
             <address class="adreess">
               <span class="adress-main">г. Киев, пр-т Леси Украинки, 26</span>
-
-              <a href="mailto:info@example.com" class="adress-info footer-mail"
-                >info@example.com</a
-              >
-              <a href="tel:+380991111111" class="adress-info"
-                >+38099 111 11 11</a
-              >
+    
+              <a href="mailto:info@example.com" class="adress-info footer-mail">info@example.com</a>
+              <a href="tel:+380991111111" class="adress-info">+38099 111 11 11</a>
             </address>
           </div>
           <div class="footer-connect-main">
             <b class="footer-connect">ПРИСОЕДЕНЯЙТЕСЬ</b>
             <ul class="footer-links">
               <li class="link">
-                <a href aria-label="Instagram"></a
-                ><img src="./img/instagram.svg" alt="" />
+                <a href aria-label="Instagram" class="social"><svg class="svg-item" width="20" height="20">
+                    <use href=./img/symbol-defs.svg#icon-instagram></use>
+                  </svg></a>
               </li>
               <li class="link">
-                <a href aria-label="Twitter"></a>
-                <img src="./img/twitter.svg" alt="" />
+                <a href aria-label="Twitter" class="social">
+                  <svg class="svg-item" width="20" height="20">
+                    <use href=./img/symbol-defs.svg#icon-twitter></use>
+                  </svg></a>
               </li>
               <li class="link">
-                <a href aria-label="Facebook"></a
-                ><img src="./img/facebook.svg" alt="" />
+                <a href aria-label="Facebook" class="social"><svg class="svg-item" width="20" height="20">
+                    <use href=./img/symbol-defs.svg#icon-facebook></use>
+                  </svg></a>
               </li>
               <li class="link">
-                <a href aria-label="LinkeIn"></a>
-                <img src="./img/linkedin.svg" alt="" />
+                <a href aria-label="LinkeIn" class="social">
+                  <svg class="svg-item" width="20" height="20">
+                    <use href=./img/symbol-defs.svg#icon-linkedin></use>
+                  </svg></a>
               </li>
             </ul>
           </div>
           <div class="footer-join">
             <b class="footer-news">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-            <a href="" class="button-primary">Подписаться</a>
+            <a href="" class="button-primary"> <span>Подписаться</span>
+              <svg class="footer-send" width="24" height="24">
+                <use href=./img/symbol-defs.svg#icon-send></use>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="footer-goit">

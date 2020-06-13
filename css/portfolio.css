@@ -25,6 +25,7 @@ img {
   --adress-footer-color: rgba(255, 255, 255, 0.6);
   --second-footer-color: rgba(255, 255, 255, 0.4);
 }
+
 body {
   background-color: var(--second-text-color);
   color: var(--title-text-color);
@@ -96,55 +97,44 @@ a {
   display: flex;
   margin-left: auto;
 }
-.contacts-logo {
-  margin-right: 10px;
-}
+
 .contacts {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .contacts-nav-li {
   display: inline-flex;
+  align-items: center;
+  fill: #afb1b8;
 }
-.contacts-nav > .mail::before {
-  display: block;
-  content: "";
-  background-image: url(../img/envelope.svg);
-  height: 15px;
-  width: 15px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 34px;
-  margin-bottom: auto;
+.contacts-nav-li:hover .svg-envelop,
+.contacts-nav-li:hover .svg-tel {
+  fill: var(--accent-color);
+}
+.contacts-nav-li:hover .contacts {
+  color: var(--accent-color);
+}
+.svg-envelop {
   margin-right: 10px;
+  fill: #afb1b8;
 }
+.svg-tel {
+  margin-right: 10px;
+  fill: #afb1b8;
+}
+
 .contacts-nav .contacts-nav-li + .contacts-nav-li {
   margin-left: 30px;
 }
-.contacts-nav > .tel::before {
-  display: block;
-  content: "";
-  background-image: url(../img/smartphone.svg);
-  height: 15px;
-  width: 15px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 32px;
-  margin-bottom: auto;
-  margin-right: 10px;
-}
+
 .contacts-nav .contacts {
-  color: var(--primary-text-color);
-  font-family: Roboto;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   text-decoration: none;
 }
-.contacts-nav .contacts:hover,
-.contacts-nav .contacts:focus {
-  color: var(--accent-color);
-}
+
 /* main container */
 .section {
   padding-top: 94px;
@@ -283,10 +273,6 @@ a {
 .second-logo {
   color: var(--body-color);
 }
-.footer-connect-main {
-  display: flex;
-  flex-direction: column;
-}
 .footer-connect {
   margin-bottom: 20px;
   display: block;
@@ -307,6 +293,21 @@ a {
 .footer-links .link:nth-child(4) {
   margin-right: 0;
 }
+.social {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.social:hover,
+.social:focus {
+  fill: var(--second-text-color);
+  background-color: var(--accent-color);
+}
 .footer-join {
   display: flex;
   flex-direction: column;
@@ -321,7 +322,7 @@ a {
   color: var(--body-color);
 }
 .button-primary {
-  display: inline-block;
+  display: inline-flex;
   border: 2px solid var(--accent-color);
   border-radius: 4px;
   min-width: 200px;
@@ -334,4 +335,7 @@ a {
   line-height: 1.9;
   text-decoration: none;
   text-align: center;
+}
+.footer-send {
+  margin-left: 10px;
 }
